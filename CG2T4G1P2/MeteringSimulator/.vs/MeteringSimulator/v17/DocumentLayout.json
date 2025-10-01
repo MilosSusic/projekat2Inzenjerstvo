@@ -1,0 +1,558 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\MeteringSimulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\converters\\valuetocenterconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\converters\\valuetocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\views\\networkentities.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\viewmodel\\networkdisplaymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\viewmodel\\measurementgraphmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\viewmodel\\networkentitiesmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\views\\measurementgraph.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\views\\networkdisplay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\views\\measurementgraph.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\model\\graphvalues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\model\\line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\model\\production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\model\\type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AE2C93C-D3CE-4614-9394-158338AD45C1}|..\\NetworkService\\NetworkService\\NetworkService.csproj|c:\\users\\user\\desktop\\cg2t4g1p2\\networkservice\\networkservice\\views\\networkentities.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134D87AD-F428-469F-A98E-5F007EDD241B}|MeteringSimulator\\MeteringSimulator.csproj|C:\\Users\\User\\Desktop\\CG2T4G1P2\\MeteringSimulator\\meteringsimulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{134D87AD-F428-469F-A98E-5F007EDD241B}|MeteringSimulator\\MeteringSimulator.csproj|solutionrelative:meteringsimulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{134D87AD-F428-469F-A98E-5F007EDD241B}|MeteringSimulator\\MeteringSimulator.csproj|C:\\Users\\User\\Desktop\\CG2T4G1P2\\MeteringSimulator\\meteringsimulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{134D87AD-F428-469F-A98E-5F007EDD241B}|MeteringSimulator\\MeteringSimulator.csproj|solutionrelative:meteringsimulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\ToastNotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Line.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\GraphValues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Type.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Production.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\MyICommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\BindableBase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetworkEntities.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAUwBgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:09:38.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MeasurementGraph.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:09:19.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NetworkEntitiesModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:07:33.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NetworkEntities.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T09:05:34.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NetworkDisplay.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T09:05:32.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MeasurementGraph.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-23T09:05:28.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValueToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:24.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ValueToCenterConverter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:22.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GraphValues.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:19.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Type.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:18.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Production.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:16.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Line.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:14.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:06.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MeasurementGraphModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:04.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NetworkDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "RelativeDocumentMoniker": "..\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "RelativeToolTip": "..\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "ViewState": "AQIAABUEAAAAAAAAAAAAAPoBAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T09:05:01.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\App.config",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\App.config",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\App.config",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-19T19:10:51.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ToastNotification.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\ToastNotification.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\ToastNotification.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\ToastNotification.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\ToastNotification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T18:54:54.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Line.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Line.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T18:52:15.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GraphValues.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\GraphValues.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T18:52:13.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Type.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Type.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T18:48:59.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MeasurementGraph.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\MeasurementGraph.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-14T11:59:29.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MeasurementGraphModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MeasurementGraphModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:35:53.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NetworkEntities.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T13:09:34.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AQIAALMAAAAAAAAAAAAAAKoAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:59:10.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NetworkDisplayModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkDisplayModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:30:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Production.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Model\\Production.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:04:05.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NetworkEntitiesModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\ViewModel\\NetworkEntitiesModel.cs",
+              "ViewState": "AQIAAKcBAAAAAAAAAAAYwNsBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T12:02:10.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NetworkEntities.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkEntities.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-13T11:52:28.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NetworkDisplay.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Views\\NetworkDisplay.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-13T11:52:22.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\MeteringSimulator\\MeteringSimulator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MeteringSimulator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\MeteringSimulator\\MeteringSimulator\\MainWindow.xaml",
+              "RelativeToolTip": "MeteringSimulator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-09-09T13:29:13.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ValueToColorConverter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToColorConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:17:26.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\MeteringSimulator\\MeteringSimulator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MeteringSimulator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\CG2T4G1P2\\MeteringSimulator\\MeteringSimulator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MeteringSimulator\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAAACYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T13:14:58.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ValueToCenterConverter.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\Converters\\ValueToCenterConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:57:35.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MyICommand.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\MyICommand.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\MyICommand.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\MyICommand.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\MyICommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:57:27.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BindableBase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\BindableBase.cs",
+              "RelativeDocumentMoniker": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\BindableBase.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\MOJA VERZIJA\\NetworkService\\NetworkService\\BindableBase.cs",
+              "RelativeToolTip": "..\\..\\MOJA VERZIJA\\NetworkService\\NetworkService\\BindableBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T12:57:22.756Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

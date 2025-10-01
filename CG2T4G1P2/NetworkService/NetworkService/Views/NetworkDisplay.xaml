@@ -1,0 +1,337 @@
+﻿<UserControl x:Class="NetworkService.Views.NetworkDisplay"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+                xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NetworkService.Views"
+             xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+             xmlns:viewModel ="clr-namespace:NetworkService.ViewModel"
+             mc:Ignorable="d" 
+             Height="500" Width="1000">
+
+    <UserControl.Resources>
+        <!-- Dugme stil (isti kao na prvoj stranici) -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF3B82F6"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="5,3"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="5" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{TemplateBinding BorderBrush}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <!-- Glavni grid sa marginom da prati izgled prve stranice -->
+    <Grid x:Name="MainGrid" Background="White" Margin="15">
+        <Grid x:Name="GridCanvases" Margin="5" HorizontalAlignment="Left" Width="600" Height="450">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- CANVAS 1 -->
+            <Canvas x:Name="canvas1" Height="120" Width="140" Grid.Column="0" Grid.Row="0" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika1}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst1}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95" Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas1}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas1}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas1}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas1}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 2 -->
+            <Canvas x:Name="canvas2" Height="120" Width="140" Grid.Column="1" Grid.Row="0" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika2}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst2}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas2}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas2}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas2}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas2}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 3 -->
+            <Canvas x:Name="canvas3" Height="120" Width="140" Grid.Column="2" Grid.Row="0" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika3}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst3}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas3}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas3}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas3}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas3}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 4 -->
+            <Canvas x:Name="canvas4" Height="120" Width="140" Grid.Column="3" Grid.Row="0" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika4}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst4}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas4}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas4}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas4}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas4}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 5 -->
+            <Canvas x:Name="canvas5" Height="120" Width="140" Grid.Column="0" Grid.Row="1" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika5}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst5}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas5}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas5}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas5}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas5}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 6 -->
+            <Canvas x:Name="canvas6" Height="120" Width="140" Grid.Column="1" Grid.Row="1" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika6}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst6}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas6}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas6}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas6}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas6}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 7 -->
+            <Canvas x:Name="canvas7" Height="120" Width="140" Grid.Column="2" Grid.Row="1" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika7}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst7}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas7}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas7}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas7}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas7}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 8 -->
+            <Canvas x:Name="canvas8" Height="120" Width="140" Grid.Column="3" Grid.Row="1" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika8}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst8}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas8}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas8}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas8}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas8}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 9 -->
+            <Canvas x:Name="canvas9" Height="120" Width="140" Grid.Column="0" Grid.Row="2" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika9}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst9}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas9}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas9}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas9}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas9}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 10 -->
+            <Canvas x:Name="canvas10" Height="120" Width="140" Grid.Column="1" Grid.Row="2" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika10}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst10}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas10}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas10}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas10}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas10}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 11 -->
+            <Canvas x:Name="canvas11" Height="120" Width="140" Grid.Column="2" Grid.Row="2" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika11}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst11}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas11}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas11}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas11}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas11}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+
+            <!-- CANVAS 12 -->
+            <Canvas x:Name="canvas12" Height="120" Width="140" Grid.Column="3" Grid.Row="2" 
+                    Background="#FFF1F5F9" AllowDrop="True" Margin="10">
+                <Image Source="{Binding Slika12}" Width="140" Height="70"/>
+                <TextBlock Width="120" Canvas.Left="0" Canvas.Top="65" Height="35" 
+                           TextWrapping="Wrap" TextAlignment="Center" 
+                           Text="{Binding Tekst12}" FontSize="14" FontWeight="Bold"/>
+                <Button Width="120" Content="Delete" Canvas.Top="95"  Margin="10 25 0 0"
+                        Command="{Binding ButtonFunkcija}" CommandParameter="{Binding ElementName=canvas12}"/>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Drop">
+                        <i:InvokeCommandAction Command="{Binding DropFunkcija}" CommandParameter="{Binding ElementName=canvas12}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="dragOver">
+                        <i:InvokeCommandAction Command="{Binding DragOverFunkcija}" CommandParameter="{Binding ElementName=canvas12}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <i:InvokeCommandAction Command="{Binding UzmiCanvas}" CommandParameter="{Binding ElementName=canvas12}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Canvas>
+        </Grid>
+
+        <!-- ListView desno, sa istim borderom kao u prvoj stranici -->
+        <Border BorderBrush="#FFCBD5E1" BorderThickness="1" CornerRadius="5" Margin="630,0,0,0">
+            <ListView Width="300" Height="450" x:Name="pregledListe" 
+                      ItemsSource="{Binding listaStavki}" 
+                      SelectedItem="{Binding selektovanaStavka}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="SelectionChanged">
+                        <i:InvokeCommandAction Command="{Binding Promena}" CommandParameter="{Binding ElementName=pregledListe}" />
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseLeftButtonUp">
+                        <i:InvokeCommandAction Command="{Binding PustenMis}" />
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </ListView>
+        </Border>
+
+        <Canvas x:Name="CanvasLines" />
+    </Grid>
+</UserControl>

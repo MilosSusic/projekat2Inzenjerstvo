@@ -1,0 +1,184 @@
+﻿<UserControl x:Class="NetworkService.Views.NetworkEntities"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:viewModel="clr-namespace:NetworkService.ViewModel"
+             xmlns:notifications="clr-namespace:Notification.Wpf.Controls;assembly=Notification.Wpf"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1000">
+
+    <UserControl.Resources>
+        <!-- Button Style -->
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF3B82F6"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="5,3"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}" 
+                                CornerRadius="5" 
+                                BorderThickness="{TemplateBinding BorderThickness}"
+                                BorderBrush="{TemplateBinding BorderBrush}">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- DataGrid Header Style -->
+        <Style TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="#FF1E40AF"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        </Style>
+
+        <!-- DataGrid Row Style -->
+        <Style TargetType="DataGridRow">
+            <Setter Property="Height" Value="40"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Background" Value="White"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FFD6E4FF"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#FF93C5FD"/>
+                    <Setter Property="Foreground" Value="Black"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </UserControl.Resources>
+
+    <!-- Input Bindings -->
+    <UserControl.InputBindings>
+        <KeyBinding Key="F3" Command="{Binding Repeat}"/>
+        <KeyBinding Key="Z" Modifiers="Control" Command="{Binding UndoCommand}"/>
+       
+    </UserControl.InputBindings>
+
+    <UserControl.DataContext>
+        <viewModel:NetworkEntitiesModel/>
+    </UserControl.DataContext>
+
+    <Grid Margin="15">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Panel: Filter + DataGrid -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <!-- Filter -->
+                <RowDefinition Height="*"/>
+                <!-- DataGrid -->
+            </Grid.RowDefinitions>
+
+            <!-- Filter Panel -->
+            <GroupBox Grid.Row="0" Header="Filter" Padding="10" Margin="0,0,0,10" FontWeight="Bold" FontSize="14">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Left">
+                    <TextBlock Text="Type:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <ComboBox Width="120" ItemsSource="{Binding Tipovi}" DisplayMemberPath="Name" SelectedItem="{Binding SelectedFilterType}" Margin="0,0,10,0"/>
+                    <TextBlock Text="ID:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <TextBox Width="80" Text="{Binding FilterId}" Margin="0,0,10,0"/>
+                    <RadioButton Content="&gt;" IsChecked="{Binding FilterGreater}" Margin="0,15,5,0"/>
+                    <RadioButton Content="&lt;" IsChecked="{Binding FilterLess}" Margin="0,15,5,0"/>
+                    <RadioButton Content="=" IsChecked="{Binding FilterEqual}" Margin="0,15,10,0"/>
+                    <Button Content="Apply Filter" Command="{Binding ApplyFilterCommand}" Width="100"/>
+                </StackPanel>
+            </GroupBox>
+
+            <!-- DataGrid -->
+            <DataGrid Grid.Row="1" ItemsSource="{Binding Izabrani}" 
+                      AutoGenerateColumns="False" 
+                      SelectionMode="Extended"
+                      CanUserAddRows="False"
+                      AlternatingRowBackground="#FFF1F5F9"
+                      GridLinesVisibility="Horizontal"
+                      RowBackground="White"
+                      BorderBrush="#FFCBD5E1"
+                      BorderThickness="1"
+                      HorizontalAlignment="Stretch"
+                      VerticalAlignment="Stretch">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn Header="Select" Binding="{Binding IsSelected, Mode=TwoWay}" Width="100"/>
+                    <DataGridTextColumn Header="ID" Binding="{Binding Id}" Width="50"/>
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="50" />
+                    <DataGridTextColumn Header="Type" Binding="{Binding Type.Name}" Width="100"/>
+                    <DataGridTemplateColumn Header="Image" Width="150">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding Type.Img_src}" Stretch="Uniform" Height="60" Width="140"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Value" Binding="{Binding Value}" Width="40"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <!-- Right Panel: Terminal + Undo/Delete + Add Form -->
+        <StackPanel Grid.Column="1" Orientation="Vertical">
+
+            <!-- Terminal -->
+            <Border BorderBrush="#FFCBD5E1" BorderThickness="2" Margin="0,0,0,10" CornerRadius="5">
+                <StackPanel>
+                    <ScrollViewer Height="200" VerticalScrollBarVisibility="Auto">
+                        <TextBlock Text="{Binding TextOnTextBlock}" Background="#FF1E293B" Foreground="White" FontFamily="Consolas" FontSize="14" TextWrapping="Wrap" Padding="5"/>
+                    </ScrollViewer>
+                    <TextBox Text="{Binding TextOnTextBox, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                             Background="#FF1E293B" Foreground="White" FontFamily="Consolas" FontSize="14" Height="36" Padding="5">
+                        <TextBox.InputBindings>
+                            <KeyBinding Key="Enter" Command="{Binding Enter}"/>
+                        </TextBox.InputBindings>
+                    </TextBox>
+                </StackPanel>
+            </Border>
+
+            <!-- Undo + Delete Buttons -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,0,0,10">
+                <Button Content="Undo" Command="{Binding UndoCommand}" Width="90"/>
+                <Button Content="Delete Selected" Command="{Binding DeleteSelectedCommand}" Width="150" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <!-- Add Form -->
+            <GroupBox Header="Add New Entity" Padding="10" Margin="0" FontWeight="Bold" FontSize="14">
+                <Grid Margin="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="80"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="ID:" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,5,5"/>
+                    <TextBox Grid.Row="0" Grid.Column="1" Width="150" Text="{Binding NewId, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,5"/>
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Name:" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,5,5"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Width="150" Text="{Binding NewName, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,5"/>
+
+                    <TextBlock Grid.Row="2" Grid.Column="0" Text="Type:" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,5,5"/>
+                    <ComboBox Grid.Row="2" Grid.Column="1" Width="150" ItemsSource="{Binding Tipovi}" DisplayMemberPath="Name" SelectedItem="{Binding NewType}" Margin="0,0,0,5"/>
+
+                    <Button Grid.Row="3" Grid.Column="1" Content="Add" Command="{Binding AddFromForm}" Width="100" HorizontalAlignment="Left" Margin="0,5,0,0"/>
+                </Grid>
+            </GroupBox>
+        </StackPanel>
+    </Grid>
+</UserControl>

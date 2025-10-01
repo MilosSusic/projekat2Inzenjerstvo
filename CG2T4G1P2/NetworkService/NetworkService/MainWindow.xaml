@@ -1,0 +1,65 @@
+﻿<Window x:Class="NetworkService.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NetworkService"
+        xmlns:views="clr-namespace:NetworkService.Views"
+        xmlns:viewModel="clr-namespace:NetworkService.ViewModel"
+        
+        mc:Ignorable="d"
+        Title="Main Window" Height="550" Width="800">
+    <Window.DataContext>
+        <viewModel:MainWindowViewModel/>
+    </Window.DataContext>
+
+    <!--Tab dugme za prebacivanje iz view-a u naredni view-->
+    <Window.InputBindings>
+        <KeyBinding Key="Right" Command="{Binding Tab}"/>
+        <KeyBinding Command="{Binding LeftArrow}" Key="Left" />
+    </Window.InputBindings>
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type viewModel:NetworkEntitiesModel}">
+            <views:NetworkEntities/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:NetworkDisplayModel}">
+            <views:NetworkDisplay/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type viewModel:MeasurementGraphModel}">
+            <views:MeasurementGraph/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" Margin="3">
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="Network Entities" Command="{Binding NavCommand}"
+                          CommandParameter="entities"/>
+                <MenuItem Header="Network Display" Command="{Binding NavCommand}"
+                          CommandParameter="display"/>
+                <MenuItem Header="Measurement Graph" Command="{Binding NavCommand}"
+                          CommandParameter="graph"/>
+            </Menu>
+        </DockPanel>
+
+        <Grid Grid.Row="1"  Height="Auto">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="130*"/>
+                <ColumnDefinition Width="387*"/>
+            </Grid.ColumnDefinitions>
+            <ContentControl Content="{Binding CurrentViewModel}" Grid.ColumnSpan="2"/>
+        </Grid>
+
+        <StackPanel Grid.Row="2" Orientation="Vertical">
+
+        </StackPanel>
+
+    </Grid>
+</Window>

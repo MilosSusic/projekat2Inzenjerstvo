@@ -1,0 +1,3 @@
+123,panel1,Solar
+789,turbin1,WindTurbine
+901,turbin2,WindTurbine

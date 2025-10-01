@@ -1,0 +1,70 @@
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.AssemblyReference.cache
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MainWindow.g.cs
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\App.g.cs
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\App.baml
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MainWindow.baml
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+D:\!FTN\!HCI VEZBE\2024-25\PZ2\Projekat\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\App.g.cs
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\App.baml
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\obj\Debug\Metering.BC1A64BD.Up2Date
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Notification.Wpf.dll
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\System.ValueTuple.dll
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Notification.Wpf.pdb
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\Notification.Wpf.xml
+C:\Users\User\Desktop\MOJA VERZIJA\MeteringSimulator\MeteringSimulator\bin\Debug\System.ValueTuple.xml
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.exe.config
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.exe
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\MeteringSimulator.pdb
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Microsoft.Xaml.Behaviors.dll
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Notification.Wpf.dll
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\System.ValueTuple.dll
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Microsoft.Xaml.Behaviors.pdb
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Microsoft.Xaml.Behaviors.xml
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Notification.Wpf.pdb
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\Notification.Wpf.xml
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\bin\Debug\System.ValueTuple.xml
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\App.g.cs
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.cache
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator_MarkupCompile.lref
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\App.baml
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.g.resources
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.Properties.Resources.resources
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.GenerateResource.cache
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\Metering.BC1A64BD.Up2Date
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.exe
+C:\Users\User\Desktop\CG2T4G1P2\MeteringSimulator\MeteringSimulator\obj\Debug\MeteringSimulator.pdb
